@@ -28,9 +28,26 @@ public class Main {
         System.out.println(merge.toString());
          */
 
+        //Plus One 60
+        /*
         PlusOne plusOne = new PlusOne();
         int [] arr = {4,5,9};
         System.out.println(Arrays.toString(plusOne.plusOne(arr)));
+        */
+
+
+        //Contains Duplicates 217
+        /*ContainsDuplicates containsDuplicates = new ContainsDuplicates();
+        int [] arr = {4,5,9,5};
+        System.out.println(containsDuplicates.ContainsDuplicate(arr));
+        */
+
+        // valid anagram 242
+        ValidAnagram validAnagram = new ValidAnagram();
+        System.out.println(validAnagram.isAnagram("anagram","nagaram"));
+
+
+
 
 
     }
