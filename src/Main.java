@@ -44,8 +44,15 @@ public class Main {
 
 
         // valid anagram 242
+       /*
         ValidAnagram validAnagram = new ValidAnagram();
         System.out.println(validAnagram.isAnagram("anagram","nagaram"));
+        */
+
+        //group anagram 49
+        GroupAnagram groupAnagram = new GroupAnagram();
+        String[] str = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        System.out.println(groupAnagram.groupAnagrams(str));
 
 
 
