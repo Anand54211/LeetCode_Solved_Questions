@@ -12,7 +12,7 @@ public class TwoSum{
           int v = target - arr[f];
 
           if(hash.containsKey(v)){
-             return (((new int[] {hash.get(v), f})));
+             return (new int[] {hash.get(v), f});
           }
           hash.put(arr[f],f);
       }

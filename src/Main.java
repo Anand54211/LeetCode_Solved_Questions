@@ -5,12 +5,12 @@ public class Main {
     public static void main(String[] args) {
 
         // two sum - 1
-        /*
+
         int [] arr = {3,7,8,2};
         int target = 11;
         TwoSum twosum = new TwoSum();
         System.out.println(Arrays.toString(twosum.TwoSUM(arr,target)));
-        */
+
 
         //valid parenthesis - 20
         /*
@@ -41,6 +41,7 @@ public class Main {
         int [] arr = {4,5,9,5};
         System.out.println(containsDuplicates.ContainsDuplicate(arr));
         */
+
 
         // valid anagram 242
         ValidAnagram validAnagram = new ValidAnagram();

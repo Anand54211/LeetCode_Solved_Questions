@@ -3,11 +3,22 @@ import java.util.Arrays;
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
 
-        char[] first = s.toLowerCase().toCharArray();
-        char[] second = t.toLowerCase().toCharArray();
+        if(s.length() != t.length()){
+            return false;
+        }
 
-        Arrays.sort(first);
-        Arrays.sort(second);
-        return Arrays.equals(first, second);
+        int [] count = new int[26];
+        for(int i = 0; i < s.length();i++){
+            count[s.charAt(i) - 'a']++;
+            count[t.charAt(i) - 'a']--;
+        }
+
+        for(int num: count){
+            if(num!= 0){
+                return false;
+            }
+        }
+        return true;
+
     }
 }
